@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Inkfree";
+        src: local("Inkfree"), url("/fonts/Inkfree.ttf");
+    }
+}

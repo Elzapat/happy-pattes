@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="/dist/output.css" rel="stylesheet">
+        <link href="/images/logo.png" ref="icon" type="images/x-icon">
+        
+        <title>Happy Pattes</title>
+    </head>
+    <body class="min-w-screen h-screen flex flex-col">
+        <nav class="flx flex-col h-60 w-screen">
+            <div class="flex flex-col h-56 w-screen">
+                <div class="flex flex-row justify-center items-center bg-primary h-16 w-auto">
+                    <div class="-mr-0 flex items-center justify-end h-full w-1/3">
+                        <a href="/src/index.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Accueil</a>
+                        <a href="/src/pension.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Pension</a>
+                    </div>
+                    <div class="flex items-center justify-center mt-44 h-56">
+                        <img class="h-full" src="/images/logo.png" alt="Happy Pattes logo">
+                    </div>
+                    <div class=" flex items-center justify-start h-full w-1/3">
+                        <a href="/src/galerie.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Galerie</a>
+                        <a href="/src/contact.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Contact</a>
+                    </div>
+                </div>
+                <!-- <div class="flex items-center justify-center">
+                    <svg height="450" width="450">
+                        <path id="curve"  d="M2,185 C83,361 371,365 450,177" />
+                        <circle id="curve" cx="220" cy="220" r="20%" fill="yellow" />
+                        <text width="450" class="font-ink-free text-3xl">
+                            <textPath xlink:href="#curve">
+                                Happy Pattes
+                            </textPath>
+                        </text>
+                    </svg>
+                </div> -->
+            </div>
+        </nav>
+
+        <main class="mt-10  grid-cols-1 gap-y-10 m-auto w-1/2 flex flex-col items-center justify-center">
+            <section class="flex flex-col items-center w-full">
+                <h2 class="mb-10 text-5xl font-ink-free">Tarifs</h2>
+
+                <div class="flex flex-col justify-evenly w-full items-center">
+                    <div class="mb-5 flex flex-col items-center justify-center">
+                        <table class="border-black border-solid border">
+                            <thead class="bg-primary text-center">
+                                <tr><td colspan="2">Tarifs</td></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border border-black px-2">Un chat</td>
+                                    <td class="border border-black px-2">9€ par jour</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-black px-2">Deux chats partageant un box</td>
+                                    <td class="border border-black px-2">14€ par jour</td>
+                                </tr>
+                            </tbody>
+                        </table>        
+                        <p class="pt-0.5">Le jour d'arrivée et le jour de départ sont comptés.</p>
+                    </div>
+                    <div class="flex justify-center w-4/5">
+                        <ul class="list-disc list-inside w-2/3">
+                            <li>Lors de l’arrivée de votre chat, prévoyez un peu de temps pour me parler de lui et de ses habitudes.</li>
+                            <li>Vous devrez également remplir un contrat de garde.</li>
+                            <li>Le paiement est effectué à la fin du séjour par chèque ou en espèce.</li>
+                        </ul>
+                        <!-- <p class="w-2/3">Lors de l’arrivée de votre chat, prévoyez un peu de temps pour me parler de lui et de ses habitudes.<br>
+                            Vous devrez également remplir un contrat de garde.<br>
+                            Le paiement est effectué à la fin du séjour par chèque ou en espèce.<br>
+                        </p> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="flex flex-col items-center">
+                <h2 class="mb-10 text-5xl font-ink-free">Hébergement</h2>
+                <p class="w-4/5 text-justify">
+                    La pension est ouverte depuis 5 ans, elle dispose de 7 boxs individuels et 4 plus grands où il est possible
+                    de loger 2 chats.
+                    Les deux chatteries sont à proximité de notre maison d’habitation ainsi votre petit compagnon bénéficie
+                    de ma présence et mes soins tout au long de la journée.
+                    Les chatteries sont chauffées l’hiver. S’il fait trop chaud en période estivale, les boxs sont climatisés.
+                    La séparation peut être un peu longue et sensible pour vous, dans ce cas n’hésitez pas à me demander de
+                    vous envoyer des nouvelles et des photos.
+                </p>
+            </section>
+
+            <section class="flex flex-col items-center">
+                <h2 class=" mb-10 text-5xl font-ink-free">Besoins du chat</h2>
+                <p class="w-4/5 text-justify">
+                    L’alimentation est à fournir par vos soins. La litière est fournie par la pension.
+                    Je vous recommande d’apporter les jouets, tapis, paniers ou autres objets auxquels votre compagnon est
+                    habitué, afin qu’il se sente en sécurité le temps de son adaptation.
+                </p>
+            </section>
+
+            <section class="flex flex-col items-center">
+                <h2 class="mb-10 text-5xl font-ink-free">Horaires</h2>
+                <p class="w-4/5 text-justify">
+                    La pension est ouverte de 8h30 à 18h30. Elle est fermée le dimanche.
+                    L’arrivée et le départ du pensionnaire se fait uniquement sur rendez-vous, en précisant l’heure.
+                </p>
+            </section>
+
+            <section class="flex flex-col items-center col-span-2">
+                <h2 class="mb-10 text-5xl font-ink-free">Santé</h2>
+                <div class="grid grid-cols-2">
+                    <div class="flex items-center justify-center">
+                        <p class="w-4/5 text-justify">
+                            Afin de pouvoir accueillir votre chat, il est obligatoire qu’il soit à jour de ses vaccinations. Vous devrez
+    me déposer son carnet de santé pour la durée du séjour.<br><br>
+    L’accueil collectif impose que votre chat soit traité contre les parasites externes (puces, tiques) et internes
+    (vers).<br><br>
+    Les chatons sont acceptés à partir de 16 semaines à condition d’avoir achevé la primo vaccination et le
+    rappel depuis au moins deux semaine.<br><br>
+    Tous les chats mâles et femelles de plus de 7 mois doivent être stérilisés.<br><br>
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <p class="w-4/5 text-justify">
+                            Vous devrez m’informer de toute maladie et/ou problème récent et en cours et des prescriptions
+    médicales, au moment de la réservation ou à l’arrivée de votre chat à la pension. Je dois avoir une copie
+    de l’ordonnance afin d’administrer des médicaments pendant le séjour.
+    Si votre chat montre des difficultés de santé pendant son séjour, je vous contacterai avant d’aller chez
+    votre vétérinaire ou celui de la pension. En cas d’urgence vitale, j’emmènerai directement votre chat chez
+    le vétérinaire le plus proche (le votre ou le notre) et vous préviendrai dés que possible. Les frais
+    vétérinaires sont à votre charge.<br><br>
+    En cas de décès, la pension Happy Pattes ne pourra être tenu responsable.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="bg-gray-800 mt-10 h-52 w-screen text-white">test</div>
+        </footer>
+    </body>
+</html>

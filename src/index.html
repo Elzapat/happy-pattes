@@ -3,22 +3,55 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link href="/dist/output.css" rel="stylesheet">
+        <link href="/images/logo_without_text.png" rel="icon" type="image/x-icon">
 
         <title>Happy Pattes</title>
 
-        <script src="/src/load_navbar_footer.js" defer></script>
+        <!-- <script src="/src/load_navbar_footer.js" defer></script> -->
     </head>
 
-    <body class="min-w-screen">
-        <nav></nav>
+    <body class="min-w-screen h-screen flex flex-col justify-between">
+        <nav class="flx flex-col h-60 w-screen">
+            <div class="flex flex-col h-56 w-screen">
+                <div class="flex flex-row justify-center items-center bg-primary h-16 w-auto">
+                    <div class="-mr-0 flex items-center justify-end h-full w-1/3">
+                        <a href="/src/index.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Accueil</a>
+                        <a href="/src/pension.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Pension</a>
+                    </div>
+                    <div class="flex items-center justify-center mt-44 h-56">
+                        <img class="h-full" src="/images/logo.png" alt="Happy Pattes logo">
+                    </div>
+                    <div class=" flex items-center justify-start h-full w-1/3">
+                        <a href="/src/galerie.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Galerie</a>
+                        <a href="/src/contact.html"
+                            class="font-medium z-10 px-3 py-2 text-gray-800 rounded-lg hover:bg-gray-800/10 hover:text-gray-900">Contact</a>
+                    </div>
+                </div>
+                <!-- <div class="flex items-center justify-center">
+                    <svg height="450" width="450">
+                        <path id="curve"  d="M2,185 C83,361 371,365 450,177" />
+                        <circle id="curve" cx="220" cy="220" r="20%" fill="yellow" />
+                        <text width="450" class="font-ink-free text-3xl">
+                            <textPath xlink:href="#curve">
+                                Happy Pattes
+                            </textPath>
+                        </text>
+                    </svg>
+                </div> -->
+            </div>
+        </nav>
 
         <main class="flex items-center flex-col space-y-10">
-            <section class="flex items-center justify-center flex-col mt-10">
-                <h1 class="text-9xl font-thin mb-1 uppercase">
+            <section class="flex items-center justify-center flex-col mt-3">
+                <!-- <h1 class="text-9xl font-thin mb-1 uppercase">
                     Happy Pattes
-                </h1>
-                <h2 class="text-4xl font-normal uppercase">Pension pour chats</h2>
+                </h1> -->
+                <h2 class="text-5xl text-black font-ink-free font-normal">Pension pour chats</h2>
             </section>
             <section class="flex flex-row itms-center justify-center w-3/5 space-x-10">
                 <img src="/images/cover_photo.jpg" alt="Deux chats qui se font un calin" class="rounded-xl drop-shadow-2xl w-1/2">
@@ -26,19 +59,21 @@
             </section>
             <section class="w-1/2 text-center text-xl">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Amet nisl purus in mollis nunc sed id semper risus. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Tellus molestie nunc non blandit. Augue eget arcu dictum varius duis at consectetur lorem. Mauris ultrices eros in cursus turpis massa tincidunt dui. Vivamus at augue eget arcu dictum. Dui nunc mattis enim ut tellus. Lorem mollis aliquam ut porttitor.
-Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Tellus cras adipiscing enim eu turpis egestas.
+                    J’accueille votre chat ou vos chats toute l’année, dans un cadre chaleureux et paisible au cœur du bocage
+                    Mortainais. L’hébergement se fait dans des boxs individuels adaptés aux besoins et au bien-être du chat.
                 </p>
             </section>
-            <section class="w-screen pb-10 flex justify-center">
+            <section class="w-screen flex justify-center">
                 <div class="w-1/2 h-96">
                     <div class="h-full w-full">
-                        <iframe class="h-full w-full" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=++Clarke+Alison+Pension+Chats+Mortain&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        <iframe class="h-full w-full" frameborder="0" src="https://www.google.fr/maps/embed/v1/place?q=++Clarke+Alison+Pension+Chats+Mortain&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                     </div>
                 </div>
             </section>
         </main>
 
-        <footer></footer>
+        <footer>
+            <div class="bg-gray-800 mt-10 h-52 w-screen text-white">test</div>
+        </footer>
     </body>
 </html>

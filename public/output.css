@@ -437,7 +437,7 @@ video {
 @font-face {
   font-family: "Inkfree";
 
-  src: local("Inkfree"), url("/fonts/Inkfree.ttf");
+  src: local("Inkfree"), url("fonts/Inkfree.ttf");
 }
 
 *, ::before, ::after {

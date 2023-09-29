@@ -27,7 +27,7 @@ function fill_galerie() {
         ["chat_23.jpg", "Description"]
     ];
 
-    let gallerie = document.getElementById("gallerie");
+    let galerie = document.getElementById("galerie");
 
     for (let [url, description] of images) {
         let container = document.createElement("div");
@@ -44,6 +44,6 @@ function fill_galerie() {
         container.appendChild(image);
         container.appendChild(descriptionElem);
 
-        gallerie.appendChild(container);
+        galerie.appendChild(container);
     }
 }

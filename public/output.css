@@ -699,6 +699,10 @@ video {
   width: 66.666667%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -717,10 +721,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .list-inside {
@@ -888,10 +888,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .font-ink-free {
